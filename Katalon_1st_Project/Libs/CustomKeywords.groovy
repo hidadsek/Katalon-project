@@ -22,6 +22,30 @@ def static "actionKeyword.SelectByXPathKeyword.clickElementByXPath"(
         	xpath)
 }
 
+def static "actionKeyword.SelectByXPathKeyword.clickElementByOffset"(
+    	String xpath	
+     , 	int x	
+     , 	int y	) {
+    (new actionKeyword.SelectByXPathKeyword()).clickElementByOffset(
+        	xpath
+         , 	x
+         , 	y)
+}
+
+def static "modalKeyword.SelectByJavascript.clickButtonJavascript"(
+    	String xpath	) {
+    (new modalKeyword.SelectByJavascript()).clickButtonJavascript(
+        	xpath)
+}
+
+def static "modalKeyword.SelectByJavascript.setTextElementJavascript"(
+    	String xpath	
+     , 	String text	) {
+    (new modalKeyword.SelectByJavascript()).setTextElementJavascript(
+        	xpath
+         , 	text)
+}
+
 def static "actionKeyword.BrowserKeyword.refreshBrowser"() {
     (new actionKeyword.BrowserKeyword()).refreshBrowser()
 }

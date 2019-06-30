@@ -4,6 +4,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import java.awt.Desktop.Action
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
@@ -27,6 +29,7 @@ import WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.By.ByXPath
 import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.remote.server.handler.FindElement
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
@@ -72,6 +75,21 @@ class SelectByXPathKeyword {
 		try {
 			WebDriver driver = DriverFactory.getWebDriver();
 			driver.findElement(By.xpath(xpath)).click();
+			KeywordUtil.markPassed("Element has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+
+	@Keyword
+	def clickElementByOffset(String xpath, int x, int y) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver();
+			WebElement elem =driver.findElement(By.xpath(xpath));
+			Actions build = new Actions(driver);
+			build.moveToElement(elem, x, y).click().build().perform();
 			KeywordUtil.markPassed("Element has been clicked")
 		} catch (WebElementNotFoundException e) {
 			KeywordUtil.markFailed("Element not found")
