@@ -58,11 +58,11 @@ class SelectByXPathKeyword {
 		try {
 			WebDriver driver = DriverFactory.getWebDriver();
 			driver.findElement(By.xpath(xpath)).sendKeys(text);
-			KeywordUtil.markPassed("Element has been clicked")
+			KeywordUtil.markPassed("Text is inputted successfully")
 		} catch (WebElementNotFoundException e) {
 			KeywordUtil.markFailed("Element not found")
 		} catch (Exception e) {
-			KeywordUtil.markFailed("Fail to click on element")
+			KeywordUtil.markFailed("Fail to enter text")
 		}
 	}
 

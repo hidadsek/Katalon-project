@@ -32,26 +32,26 @@ def static "actionKeyword.SelectByXPathKeyword.clickElementByOffset"(
          , 	y)
 }
 
-def static "modalKeyword.SelectByJavascript.clickButtonJavascript"(
-    	String xpath	) {
-    (new modalKeyword.SelectByJavascript()).clickButtonJavascript(
-        	xpath)
+def static "actionKeyword.SelectByCSSKeyword.clickElementByXPath"(
+    	String css	) {
+    (new actionKeyword.SelectByCSSKeyword()).clickElementByXPath(
+        	css)
 }
 
-def static "modalKeyword.SelectByJavascript.setTextElementJavascript"(
-    	String xpath	
-     , 	String text	) {
-    (new modalKeyword.SelectByJavascript()).setTextElementJavascript(
-        	xpath
-         , 	text)
+def static "modalKeyword.SelectByJavascript.deLay"(
+    	int time	) {
+    (new modalKeyword.SelectByJavascript()).deLay(
+        	time)
 }
 
 def static "actionKeyword.BrowserKeyword.refreshBrowser"() {
     (new actionKeyword.BrowserKeyword()).refreshBrowser()
 }
 
-def static "actionKeyword.BrowserKeyword.openBrowser"() {
-    (new actionKeyword.BrowserKeyword()).openBrowser()
+def static "actionKeyword.BrowserKeyword.openBrowser"(
+    	String url	) {
+    (new actionKeyword.BrowserKeyword()).openBrowser(
+        	url)
 }
 
 def static "actionKeyword.BrowserKeyword.closeBrowser"(

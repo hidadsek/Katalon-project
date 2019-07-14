@@ -59,9 +59,9 @@ class BrowserKeyword {
 	 * Open Browser
 	 */
 	@Keyword
-	def openBrowser() {
+	def openBrowser(String url) {
 		try {
-			WebUI.openBrowser('');
+			WebUI.openBrowser(url);
 			WebDriver driver = new ChromeDriver();
 			DriverFactory.changeWebDriver(driver);
 		} catch (WebElementNotFoundException e) {
