@@ -4,6 +4,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import java.util.concurrent.TimeUnit
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
@@ -62,8 +64,9 @@ class BrowserKeyword {
 	def openBrowser(String url) {
 		try {
 			WebUI.openBrowser(url);
-			WebDriver driver = new ChromeDriver();
-			DriverFactory.changeWebDriver(driver);
+			WebDriver driver = DriverFactory.getWebDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 		} catch (WebElementNotFoundException e) {
 			KeywordUtil.markFailed("Browser can not be opened")
 		} catch (Exception e) {
@@ -75,13 +78,14 @@ class BrowserKeyword {
 	 * Close Browser
 	 */
 	@Keyword
-	def closeBrowser(WebDriver driver) {
+	def closeBrowser() {
 		try {
+			WebDriver driver = DriverFactory.getWebDriver();
 			driver.close();
 		} catch (WebElementNotFoundException e) {
-			KeywordUtil.markFailed("Browser can not be opened")
+			KeywordUtil.markFailed("Browser can not be closed")
 		} catch (Exception e) {
-			KeywordUtil.markFailed("Fail to open browser")
+			KeywordUtil.markFailed("Fail to close browser")
 		}
 	}
 }

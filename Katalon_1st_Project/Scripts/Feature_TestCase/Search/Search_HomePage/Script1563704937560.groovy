@@ -15,13 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//li[@class=\'login\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@aria-label=\'inputkey\' and @placeholder=\'\']', 
+    'Refugees: Displaced, not discouraged')
 
-CustomKeywords.'modalKeyword.DelayModal.deLay'(1)
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@placeholder=\'Email Address\']', 'nguyendongthuc13@gmail.com')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@placeholder=\'Password\']', 'Test@123')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//input[@value=\'Login\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@id="edit-actions-first"]/button/i')
 

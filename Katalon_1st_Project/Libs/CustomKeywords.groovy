@@ -5,8 +5,6 @@
 
 import java.lang.String
 
-import org.openqa.selenium.WebDriver
-
 
 def static "actionKeyword.SelectByXPathKeyword.setTextElementByXPath"(
     	String xpath	
@@ -38,9 +36,9 @@ def static "actionKeyword.SelectByCSSKeyword.clickElementByXPath"(
         	css)
 }
 
-def static "modalKeyword.SelectByJavascript.deLay"(
+def static "modalKeyword.DelayModal.deLay"(
     	int time	) {
-    (new modalKeyword.SelectByJavascript()).deLay(
+    (new modalKeyword.DelayModal()).deLay(
         	time)
 }
 
@@ -54,8 +52,12 @@ def static "actionKeyword.BrowserKeyword.openBrowser"(
         	url)
 }
 
-def static "actionKeyword.BrowserKeyword.closeBrowser"(
-    	WebDriver driver	) {
-    (new actionKeyword.BrowserKeyword()).closeBrowser(
-        	driver)
+def static "actionKeyword.BrowserKeyword.closeBrowser"() {
+    (new actionKeyword.BrowserKeyword()).closeBrowser()
+}
+
+def static "actionKeyword.MouseHoverKeyword.moveMouseToObject"(
+    	String xpath	) {
+    (new actionKeyword.MouseHoverKeyword()).moveMouseToObject(
+        	xpath)
 }

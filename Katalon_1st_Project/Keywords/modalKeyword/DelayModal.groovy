@@ -11,7 +11,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
-public class SelectByJavascript {
+public class DelayModal {
 	@Keyword
 	def deLay(int time) {
 		try {

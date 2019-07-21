@@ -13,15 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//li[@class=\'login\']')
-
-CustomKeywords.'modalKeyword.DelayModal.deLay'(1)
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@placeholder=\'Email Address\']', 'nguyendongthuc13@gmail.com')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@placeholder=\'Password\']', 'Test@123')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//input[@value=\'Login\']')
-
