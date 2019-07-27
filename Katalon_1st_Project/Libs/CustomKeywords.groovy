@@ -30,6 +30,14 @@ def static "actionKeyword.SelectByXPathKeyword.clickElementByOffset"(
          , 	y)
 }
 
+def static "actionKeyword.SelectByXPathKeyword.setTextElementByXPath"(
+    	String xpath	
+     , 	String text	) {
+    (new actionKeyword.SelectByXPathKeyword()).setTextElementByXPath(
+        	xpath
+         , 	text)
+}
+
 def static "actionKeyword.SelectByCSSKeyword.clickElementByXPath"(
     	String css	) {
     (new actionKeyword.SelectByCSSKeyword()).clickElementByXPath(
