@@ -15,14 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
-CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'Stories\']')
+CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'Take Action\']')
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'All stories\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'Write for our blog\']')
 
 CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//*[@id="stories-list"]//div//a/span[text()="Friendships shaped by a pair of scissors"]')
+CustomKeywords.'actionKeyword.VerifyKeyword.verifyURL'('https://blog.ourbetterworld.org')
 
-CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//*[@id="story"]/div/div/div[1]/div/div[1]/h1/span', 'Friendships shaped by a pair of scissors')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@id=\'email\']', 'nguyendongthuc13@gmail.com')
 
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//textarea[@id=\'pitch_content\']', 'Testing')
 

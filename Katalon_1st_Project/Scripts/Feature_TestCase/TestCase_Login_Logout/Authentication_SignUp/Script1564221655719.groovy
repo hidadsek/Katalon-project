@@ -17,7 +17,7 @@ CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetter
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//li[@class=\'signup\']')
 
-CustomKeywords.'modalKeyword.DelayModal.deLay'(1)
+CustomKeywords.'modalKeyword.DelayModal.deLay'(1000)
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@placeholder=\'First name\']', 'Thuc')
 
@@ -25,7 +25,7 @@ CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//inp
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@placeholder=\'Email\']', 'nguyendongthuc13@gmail.com')
 
-CustomKeywords.'actionKeyword.SelectByCSSKeyword.clickElementByXPath'('input[data-drupal-selector=edit-field-account-accept-tnc-value]')
+CustomKeywords.'actionKeyword.SelectByCSSKeyword.clickElementByCSS'('input[data-drupal-selector=edit-field-account-accept-tnc-value]')
 
 not_run: CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//input[@value=\'Sign up\']')
 

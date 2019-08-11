@@ -15,10 +15,18 @@ public class DelayModal {
 	@Keyword
 	def deLay(int time) {
 		try {
-			WebDriver driver = DriverFactory.getWebDriver();
-			driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
+			Thread.sleep(time);
 		} catch (Exception e) {
 			KeywordUtil.markFailed("Fail to delay");
+		}
+	}
+	
+	@Keyword
+	def implicitWait(int time) {
+		try {
+			Thread.sleep(time);
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to wait");
 		}
 	}
 }

@@ -17,7 +17,7 @@ CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetter
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//li[@class=\'login\']')
 
-CustomKeywords.'modalKeyword.DelayModal.deLay'(1)
+CustomKeywords.'modalKeyword.DelayModal.deLay'(1000)
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@placeholder=\'Email Address\']', 'nguyendongthuc13@gmail.com')
 

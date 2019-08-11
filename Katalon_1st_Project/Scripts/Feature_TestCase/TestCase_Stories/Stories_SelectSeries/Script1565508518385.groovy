@@ -17,12 +17,13 @@ CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetter
 
 CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'Stories\']')
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'All stories\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'Series\']')
 
 CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//*[@id="stories-list"]//div//a/span[text()="Friendships shaped by a pair of scissors"]')
+CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//*[@id="series-list"]/div/header/h1', 'OUR SERIES')
 
-CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//*[@id="story"]/div/div/div[1]/div/div[1]/h1/span', 'Friendships shaped by a pair of scissors')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectSerie'(varSerie)
 
+CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//*[@id="series-list"]/div/div/div/div[1]/h1/span', 'REFUGEES: DISPLACED, NOT DISCOURAGED')
 
