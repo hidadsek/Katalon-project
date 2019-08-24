@@ -30,12 +30,6 @@ def static "actionKeyword.SelectByXPathKeyword.clickElementByOffset"(
          , 	y)
 }
 
-def static "actionKeyword.SelectByXPathKeyword.isElementExistedByXPath"(
-    	String xpath	) {
-    (new actionKeyword.SelectByXPathKeyword()).isElementExistedByXPath(
-        	xpath)
-}
-
 def static "actionKeyword.SelectByXPathKeyword.selectStoriesBySection"(
     	String section	) {
     (new actionKeyword.SelectByXPathKeyword()).selectStoriesBySection(
@@ -60,6 +54,50 @@ def static "actionKeyword.SelectByXPathKeyword.selectDropdownByXpath"(
     (new actionKeyword.SelectByXPathKeyword()).selectDropdownByXpath(
         	xpath
          , 	value)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectGoodStoryDropDownList"(
+    	String value	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectGoodStoryDropDownList(
+        	value)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectPersonByRole"(
+    	String role	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectPersonByRole(
+        	role)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectPaymentType"(
+    	String paymentType	
+     , 	String amount	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectPaymentType(
+        	paymentType
+         , 	amount)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectSubjectDropDownList"(
+    	String value	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectSubjectDropDownList(
+        	value)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectCountryDropDownList"(
+    	String value	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectCountryDropDownList(
+        	value)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectNationalityDropDownList"(
+    	String value	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectNationalityDropDownList(
+        	value)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectSkillByXpath"(
+    	String skill	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectSkillByXpath(
+        	skill)
 }
 
 def static "actionKeyword.SelectByCSSKeyword.clickElementByCSS"(
@@ -108,6 +146,20 @@ def static "actionKeyword.VerifyKeyword.verifyURL"(
     	String url	) {
     (new actionKeyword.VerifyKeyword()).verifyURL(
         	url)
+}
+
+def static "actionKeyword.VerifyKeyword.verifyText"(
+    	String xpath1	
+     , 	String xpath2	) {
+    (new actionKeyword.VerifyKeyword()).verifyText(
+        	xpath1
+         , 	xpath2)
+}
+
+def static "actionKeyword.VerifyKeyword.verifyElementExistByXpath"(
+    	String xpath	) {
+    (new actionKeyword.VerifyKeyword()).verifyElementExistByXpath(
+        	xpath)
 }
 
 def static "actionKeyword.BrowserKeyword.refreshBrowser"() {

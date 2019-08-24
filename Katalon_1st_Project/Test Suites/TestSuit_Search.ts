@@ -14,12 +14,12 @@
       <guid>3ccd92ab-1211-4ca9-96a3-a74256621942</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Feature_TestCase/TestCase_Search/Search_HomePage</testCaseId>
+      <testCaseId>Test Cases/Keyword_TestCase/TestCase_Search/Search_HomePage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>32fd0231-6e0f-45dc-9ff2-22c27b05ad04</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Feature_TestCase/TestCase_Search/Search_SelectStory</testCaseId>
+      <testCaseId>Test Cases/Keyword_TestCase/TestCase_Search/Search_SelectStory</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

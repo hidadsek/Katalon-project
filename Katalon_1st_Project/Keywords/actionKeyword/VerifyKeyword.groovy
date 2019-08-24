@@ -66,9 +66,10 @@ public class VerifyKeyword {
 				KeywordUtil.markFailed(verifiedText+" do not match");
 			}
 		} catch (WebElementNotFoundException e) {
-			KeywordUtil.markFailed("Element not found")
+			KeywordUtil.markFailed("Element not found");
 		} catch (Exception e) {
-			KeywordUtil.markFailed("Unexpected error happens")
+			KeywordUtil.markFailed("Unexpected error happens");
+			e.printStackTrace();
 		}
 	}
 
@@ -88,9 +89,10 @@ public class VerifyKeyword {
 				KeywordUtil.markFailed("Text do not match");
 			}
 		} catch (WebElementNotFoundException e) {
-			KeywordUtil.markFailed("Element not found")
+			KeywordUtil.markFailed("Element not found");
 		} catch (Exception e) {
-			KeywordUtil.markFailed("Unexpected error happens")
+			KeywordUtil.markFailed("Unexpected error happens");
+			e.printStackTrace();
 		}
 	}
 
@@ -111,9 +113,10 @@ public class VerifyKeyword {
 				KeywordUtil.markFailed(""+currentURL+" do not match");
 			}
 		} catch (WebElementNotFoundException e) {
-			KeywordUtil.markFailed("Element not found")
+			KeywordUtil.markFailed("Element not found");
 		} catch (Exception e) {
-			KeywordUtil.markFailed("Unexpected error happens")
+			KeywordUtil.markFailed("Unexpected error happens");
+			e.printStackTrace();
 		}
 	}
 
@@ -129,7 +132,58 @@ public class VerifyKeyword {
 				}
 			}
 		} catch (Exception e) {
-			KeywordUtil.markFailed("Unexpected error happens")
+			KeywordUtil.markFailed("Unexpected error happens");
+			e.printStackTrace();
+		}
+	}
+	/**
+	 * Verify text in element
+	 * @param to xpath, driver is default
+	 */
+	@Keyword
+	def verifyText(String xpath1, String xpath2) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver();
+			String verifiedText= driver.findElement(By.xpath(xpath1+"//h3//span")).getText();
+			driver.findElement(By.xpath(xpath1+"//span")).click();
+			String text= driver.findElement(By.xpath(xpath2)).getText();
+			boolean isMatch = verifiedText.contains(text);
+			if (isMatch == true){
+				KeywordUtil.markPassed("Text is verified successfully");
+			}
+			else {
+				KeywordUtil.markFailed(verifiedText+" do not match "+ text);
+			}
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found");
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Unexpected error happens");
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Verify text in element
+	 * @param to xpath, driver is default
+	 */
+	@Keyword
+	def verifyElementExistByXpath(String xpath) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver();
+			boolean isMatch = true;
+			java.util.List<WebElement> elem =driver.findElements(By.xpath(xpath));
+			if (elem.size() == 0){
+				isMatch = false;
+			}
+			if (isMatch == true){
+				KeywordUtil.markPassed("Element exists");
+			}
+			else {
+				KeywordUtil.markFailed("Element does not exists");
+			}
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Unexpected error happens");
+			e.printStackTrace();
 		}
 	}
 }

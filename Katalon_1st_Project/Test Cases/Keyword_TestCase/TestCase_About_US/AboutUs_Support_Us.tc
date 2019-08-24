@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AboutUs_Support_Us</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c15fbbe5-3e1c-4033-aa0a-242b699f9076</testCaseGuid>
+   <variable>
+      <defaultValue>'Custom'</defaultValue>
+      <description></description>
+      <id>5265b410-e0b4-4dc6-91bf-cf832237f902</id>
+      <masked>false</masked>
+      <name>varSupportType</name>
+   </variable>
+</TestCaseEntity>

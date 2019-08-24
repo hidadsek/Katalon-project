@@ -20,7 +20,7 @@ public class DelayModal {
 			KeywordUtil.markFailed("Fail to delay");
 		}
 	}
-	
+
 	@Keyword
 	def implicitWait(int time) {
 		try {

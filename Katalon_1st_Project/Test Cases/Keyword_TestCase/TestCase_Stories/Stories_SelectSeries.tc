@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Stories_SelectSeries</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7f28571-6498-4fab-986a-dea50f528c4d</testCaseGuid>
+   <variable>
+      <defaultValue>'Refugees: Displaced, not discouraged'</defaultValue>
+      <description></description>
+      <id>98d1405e-c38d-4a6d-ad7c-c93e2a0dd206</id>
+      <masked>false</masked>
+      <name>varSerie</name>
+   </variable>
+</TestCaseEntity>
