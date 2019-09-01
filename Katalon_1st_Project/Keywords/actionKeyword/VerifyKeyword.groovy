@@ -101,10 +101,32 @@ public class VerifyKeyword {
 	 * @param to url, driver is default
 	 */
 	@Keyword
-	def verifyURL(String url) {
+	def verifyURLInDifferentTab(String url) {
 		try {
 			WebDriver driver = DriverFactory.getWebDriver();
 			switchTab();
+			String currentURL= driver.getCurrentUrl();
+			if (currentURL.contains(url)== true){
+				KeywordUtil.markPassed("URL is verified successfully");
+			}
+			else {
+				KeywordUtil.markFailed(""+currentURL+" do not match");
+			}
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found");
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Unexpected error happens");
+			e.printStackTrace();
+		}
+	}
+	/**
+	 * Verify URL in element
+	 * @param to url, driver is default
+	 */
+	@Keyword
+	def verifyURLInTheSameTab(String url) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver();
 			String currentURL= driver.getCurrentUrl();
 			if (currentURL.contains(url)== true){
 				KeywordUtil.markPassed("URL is verified successfully");

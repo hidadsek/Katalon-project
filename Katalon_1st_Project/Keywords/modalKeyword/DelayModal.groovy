@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.support.ui.WebDriverWait
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.util.KeywordUtil
@@ -24,7 +25,8 @@ public class DelayModal {
 	@Keyword
 	def implicitWait(int time) {
 		try {
-			Thread.sleep(time);
+			WebDriver driver = DriverFactory.getWebDriver();
+			driver.manage().timeouts().implicitlyWait(time,TimeUnit.SECONDS) ;
 		} catch (Exception e) {
 			KeywordUtil.markFailed("Fail to wait");
 		}

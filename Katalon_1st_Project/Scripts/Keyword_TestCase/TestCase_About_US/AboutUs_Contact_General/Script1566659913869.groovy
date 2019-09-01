@@ -25,5 +25,7 @@ CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectSubjectDropDownList'('G
 
 WebUI.callTestCase(findTestCase('Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData'), [('varFirstname') : 'Thuc'
         , ('varLastname') : 'Nguyen', ('varEmail') : 'nguyendongthuc13@gmail.com', ('varContact') : '579135', ('varCountry') : 'Vietnam'
-        , ('varCity') : 'Ho Chi Minh', ('varNationality') : 'Vietnam', ('varMessage') : 'Test'], FailureHandling.STOP_ON_FAILURE)
+        , ('varCity') : 'Ho Chi Minh', ('varNationality') : 'Vietnamese'], FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//textarea[@id="edit-message"]', 'Test')
 

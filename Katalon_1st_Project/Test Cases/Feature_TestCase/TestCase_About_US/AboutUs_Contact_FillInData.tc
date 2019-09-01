@@ -48,17 +48,10 @@
       <name>varCity</name>
    </variable>
    <variable>
-      <defaultValue>'Vietnam'</defaultValue>
+      <defaultValue>'Vietnamese'</defaultValue>
       <description></description>
       <id>441b5a82-2433-48ab-abad-826b1309946e</id>
       <masked>false</masked>
       <name>varNationality</name>
-   </variable>
-   <variable>
-      <defaultValue>'Test'</defaultValue>
-      <description></description>
-      <id>5f6f4ec3-b7a5-44b6-99a7-a0312af18c03</id>
-      <masked>false</masked>
-      <name>varMessage</name>
    </variable>
 </TestCaseEntity>

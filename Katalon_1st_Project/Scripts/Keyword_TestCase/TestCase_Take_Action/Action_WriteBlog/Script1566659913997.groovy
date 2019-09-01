@@ -21,7 +21,7 @@ CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@
 
 CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 
-CustomKeywords.'actionKeyword.VerifyKeyword.verifyURL'('https://blog.ourbetterworld.org')
+CustomKeywords.'actionKeyword.VerifyKeyword.verifyURLInDifferentTab'('https://blog.ourbetterworld.org')
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@id=\'email\']', 'nguyendongthuc13@gmail.com')
 

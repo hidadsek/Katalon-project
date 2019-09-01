@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f8d49cf2-ba1d-46be-b5e0-a8e9069c2f57</testCaseGuid>
+   <variable>
+      <defaultValue>'Refugees: Displaced, not discouraged'</defaultValue>
+      <description></description>
+      <id>00fd52a5-1f03-4d2a-9f68-1100fdfd2418</id>
+      <masked>false</masked>
+      <name>varSearchKey</name>
+   </variable>
 </TestCaseEntity>

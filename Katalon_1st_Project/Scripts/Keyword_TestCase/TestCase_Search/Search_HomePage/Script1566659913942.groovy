@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//input[@aria-label=\'inputkey\' and @placeholder=\'\']', 
-    'Refugees: Displaced, not discouraged')
+    varSearchKey)
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@id="edit-actions-first"]/button/i')
 

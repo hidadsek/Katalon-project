@@ -35,5 +35,3 @@ CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//select[@id=\'e
 CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//input[@id=\'state\']//following-sibling::div[@class="ui basic red pointing prompt label transition visible"]', 
     'City of residence must have a value')
 
-CustomKeywords.'actionKeyword.VerifyKeyword.verifyElementExistByXpath'('//*[@id="edit-general-footer"]/div/div[contains(@class,\'error\')]')
-

@@ -100,6 +100,32 @@ def static "actionKeyword.SelectByXPathKeyword.selectSkillByXpath"(
         	skill)
 }
 
+def static "actionKeyword.SelectByXPathKeyword.selectChoiceByXpath"(
+    	String xpath	
+     , 	String answer	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectChoiceByXpath(
+        	xpath
+         , 	answer)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectPersonCountryDropDownList"(
+    	String value	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectPersonCountryDropDownList(
+        	value)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectMultipleAreaInList"(
+    	String value	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectMultipleAreaInList(
+        	value)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectMultipleActionInList"(
+    	String value	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectMultipleActionInList(
+        	value)
+}
+
 def static "actionKeyword.SelectByCSSKeyword.clickElementByCSS"(
     	String css	) {
     (new actionKeyword.SelectByCSSKeyword()).clickElementByCSS(
@@ -142,9 +168,15 @@ def static "actionKeyword.VerifyKeyword.verifyTextByCSS"(
          , 	text)
 }
 
-def static "actionKeyword.VerifyKeyword.verifyURL"(
+def static "actionKeyword.VerifyKeyword.verifyURLInDifferentTab"(
     	String url	) {
-    (new actionKeyword.VerifyKeyword()).verifyURL(
+    (new actionKeyword.VerifyKeyword()).verifyURLInDifferentTab(
+        	url)
+}
+
+def static "actionKeyword.VerifyKeyword.verifyURLInTheSameTab"(
+    	String url	) {
+    (new actionKeyword.VerifyKeyword()).verifyURLInTheSameTab(
         	url)
 }
 

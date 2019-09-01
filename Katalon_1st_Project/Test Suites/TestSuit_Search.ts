@@ -15,11 +15,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Keyword_TestCase/TestCase_Search/Search_HomePage</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;Refugees: Displaced, not discouraged&quot;</value>
+         <variableId>00fd52a5-1f03-4d2a-9f68-1100fdfd2418</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>32fd0231-6e0f-45dc-9ff2-22c27b05ad04</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Keyword_TestCase/TestCase_Search/Search_SelectStory</testCaseId>
+      <testCaseId>Test Cases/Feature_TestCase/TestCase_Search/Search_SelectStory</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -23,3 +23,5 @@ CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectSubjectDropDownList'('Partnership')
 
+WebUI.callTestCase(findTestCase('Feature_TestCase/TestCase_About_US/AboutUs_Contact_GeneralErrorMessage'), [:], FailureHandling.STOP_ON_FAILURE)
+

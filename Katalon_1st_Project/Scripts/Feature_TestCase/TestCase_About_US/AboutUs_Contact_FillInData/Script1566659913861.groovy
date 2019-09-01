@@ -27,5 +27,3 @@ CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//inp
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectNationalityDropDownList'('Vietnamese')
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.setTextElementByXPath'('//textarea[@id="edit-message"]', varMessage)
-
