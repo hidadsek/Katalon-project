@@ -67,8 +67,6 @@ class BrowserKeyword {
 			WebDriver driver = DriverFactory.getWebDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-		} catch (WebElementNotFoundException e) {
-			KeywordUtil.markFailed("Browser can not be opened")
 		} catch (Exception e) {
 			KeywordUtil.markFailed("Fail to open browser")
 		}
