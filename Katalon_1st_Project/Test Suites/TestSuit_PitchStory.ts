@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TestSuit_PartnerUs</name>
+   <name>TestSuit_PitchStory</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
       <guid>ec2d40e4-1bc6-4f0b-ab1e-21a763168cc4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Partner_Us</testCaseId>
+      <testCaseId>Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>219dd163-4cd3-49b3-ae93-1abc31360bf1</guid>

@@ -219,3 +219,7 @@ def static "actionKeyword.MouseHoverKeyword.scrollToObject"(
     (new actionKeyword.MouseHoverKeyword()).scrollToObject(
         	xpath)
 }
+
+def static "actionKeyword.MouseHoverKeyword.scrollToTop"() {
+    (new actionKeyword.MouseHoverKeyword()).scrollToTop()
+}

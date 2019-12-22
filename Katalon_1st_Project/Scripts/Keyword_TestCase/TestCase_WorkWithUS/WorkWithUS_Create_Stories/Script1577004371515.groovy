@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
@@ -28,7 +30,9 @@ CustomKeywords.'actionKeyword.MouseHoverKeyword.scrollToObject'('//*[@id="meet-t
 
 CustomKeywords.'actionKeyword.VerifyKeyword.verifyElementExistByXpath'('//div[@class="member-infor"]')
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//*[@id="block-obw-theme-content"]//div[@class=\'button-group\']/a[text()=\'Sign up\']')
+CustomKeywords.'actionKeyword.MouseHoverKeyword.scrollToTop'()
+
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//a[text()=\'Sign up now\']')
 
 WebUI.waitForPageLoad(10)
 

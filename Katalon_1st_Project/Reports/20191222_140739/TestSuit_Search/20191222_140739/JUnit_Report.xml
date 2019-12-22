@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit_Search" time="31.313" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuit_Search" tests="2" failures="0" errors="0" time="31.313" timestamp="2019-12-22 14:07:42" hostname="hidadsek - nguyenthuc" id="Test Suites/TestSuit_Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hidadsek\\Desktop\\Git\\Katalon-project\\Katalon_1st_Project\\Reports\\20191222_140739\\TestSuit_Search\\20191222_140739"/>
+         <property name="logFiles" value="C:\\Users\\hidadsek\\Desktop\\Git\\Katalon-project\\Katalon_1st_Project\\Reports\\20191222_140739\\TestSuit_Search\\20191222_140739\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hidadsek - nguyenthuc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="192.168.1.110"/>
+         <property name="sessionId" value="5a34975e-47a9-40b1-af53-8ecf170fe894"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Keyword_TestCase/TestCase_Search/Search_HomePage" time="18.898" classname="Test Cases/Keyword_TestCase/TestCase_Search/Search_HomePage" status="PASSED">
+         <system-out><![CDATA[2019-12-22 14:07:42 - [TEST_CASE][PASSED] - Test Cases/Keyword_TestCase/TestCase_Search/Search_HomePage: Test Cases/Keyword_TestCase/TestCase_Search/Search_HomePage
+
+2019-12-22 14:07:42 - [TEST_STEP][PASSED] - actionKeyword.BrowserKeyword.openBrowser("https://www.ourbetterworld.org/"): actionKeyword.BrowserKeyword.openBrowser is PASSED
+
+2019-12-22 14:07:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-22 14:07:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-22 14:07:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ourbetterworld.org/'
+
+2019-12-22 14:07:55 - [MESSAGE][PASSED] - actionKeyword.BrowserKeyword.openBrowser is PASSED
+
+2019-12-22 14:07:55 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@aria-label='inputkey' and @placeholder='']", varSearchKey): Text is inputted successfully
+
+2019-12-22 14:07:57 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-22 14:07:57 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.clickElementByXPath("//div[@id="edit-actions-first"]/button/i"): Element has been clicked
+
+2019-12-22 14:08:01 - [MESSAGE][PASSED] - Element has been clicked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Feature_TestCase/TestCase_Search/Search_SelectStory" time="1.664" classname="Test Cases/Feature_TestCase/TestCase_Search/Search_SelectStory" status="PASSED">
+         <system-out><![CDATA[2019-12-22 14:08:01 - [TEST_CASE][PASSED] - Test Cases/Feature_TestCase/TestCase_Search/Search_SelectStory: Test Cases/Feature_TestCase/TestCase_Search/Search_SelectStory
+
+2019-12-22 14:08:01 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.clickElementByXPath("//div//span//a[text()='Refugees: Displaced, not discouraged']"): Element has been clicked
+
+2019-12-22 14:08:03 - [MESSAGE][PASSED] - Element has been clicked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-22 14:07:42 - [TEST_SUITE][PASSED] - TestSuit_Search: Test Cases/Feature_TestCase/TestCase_Search/Search_SelectStory]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

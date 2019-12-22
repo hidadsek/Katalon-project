@@ -10,6 +10,8 @@ import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.util.KeywordUtil
@@ -58,6 +60,23 @@ public class MouseHoverKeyword {
 			KeywordUtil.markFailed("Element not found")
 		} catch (Exception e) {
 			KeywordUtil.markFailed("Fail to move to element")
+		}
+	}
+
+	/**
+	 * Scroll up an element
+	 * @param to xpath, driver is default
+	 */	
+	@Keyword
+	def scrollToTop() {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver();
+			JavascriptExecutor jse = (JavascriptExecutor)driver;
+			jse.executeScript("scroll(10, 10)");
+			Thread.sleep(500);
+			KeywordUtil.markPassed("Scroll to top successfully")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to scroll to top element")
 		}
 	}
 }

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit_PitchStory" time="78.829" tests="3" failures="3" errors="0">
+   <testsuite name="TestSuit_PitchStory" tests="3" failures="3" errors="0" time="78.829" timestamp="2019-12-22 14:37:51" hostname="hidadsek - nguyenthuc" id="Test Suites/TestSuit_PitchStory">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hidadsek\\Desktop\\Git\\Katalon-project\\Katalon_1st_Project\\Reports\\20191222_143749\\TestSuit_PitchStory\\20191222_143749"/>
+         <property name="logFiles" value="C:\\Users\\hidadsek\\Desktop\\Git\\Katalon-project\\Katalon_1st_Project\\Reports\\20191222_143749\\TestSuit_PitchStory\\20191222_143749\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hidadsek - nguyenthuc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="192.168.1.110"/>
+         <property name="sessionId" value="db3777c88d06db641f01418f1ccac5ea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories" time="52.945" classname="Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.clickElementByXPath(SelectByXPathKeyword.groovy:89)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkWithUS_Pitch_Stories.run(WorkWithUS_Pitch_Stories:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)
+"/>
+         <system-out><![CDATA[2019-12-22 14:37:52 - [TEST_CASE][FAILED] - Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories: Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.clickElementByXPath(SelectByXPathKeyword.groovy:89)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkWithUS_Pitch_Stories.run(WorkWithUS_Pitch_Stories:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)
+
+
+2019-12-22 14:37:52 - [TEST_STEP][PASSED] - actionKeyword.BrowserKeyword.openBrowser("https://www.ourbetterworld.org/"): actionKeyword.BrowserKeyword.openBrowser is PASSED
+
+2019-12-22 14:37:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-22 14:37:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-22 14:38:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ourbetterworld.org/'
+
+2019-12-22 14:38:16 - [MESSAGE][PASSED] - actionKeyword.BrowserKeyword.openBrowser is PASSED
+
+2019-12-22 14:38:16 - [TEST_STEP][PASSED] - actionKeyword.MouseHoverKeyword.moveMouseToObject("//div[@class='navigation float-left']//li//a[text()='Work With Us']"): Mouse moves successfully
+
+2019-12-22 14:38:17 - [MESSAGE][PASSED] - Mouse moves successfully
+
+2019-12-22 14:38:17 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.clickElementByXPath("//div[@class='navigation float-left']//li//li/a[text()='Create stories']"): Element has been clicked
+
+2019-12-22 14:38:17 - [MESSAGE][PASSED] - Element has been clicked
+
+2019-12-22 14:38:17 - [TEST_STEP][PASSED] - modalKeyword.DelayModal.deLay(5000): modalKeyword.DelayModal.deLay is PASSED
+
+2019-12-22 14:38:22 - [MESSAGE][PASSED] - modalKeyword.DelayModal.deLay is PASSED
+
+2019-12-22 14:38:22 - [TEST_STEP][PASSED] - actionKeyword.VerifyKeyword.verifyTextByXPath("//div[@id="block-obw-theme-content"]/article/div/div[1]/div/div[2]/h1/div", "Create stories"): Text is verified successfully
+
+2019-12-22 14:38:36 - [MESSAGE][PASSED] - Text is verified successfully
+
+2019-12-22 14:38:36 - [TEST_STEP][PASSED] - actionKeyword.MouseHoverKeyword.scrollToObject("//*[@id="meet-the-team"]//h3[contains(text(),'Our Impact Storytellers')]"): Scroll to 1843 and successfully
+
+2019-12-22 14:38:40 - [MESSAGE][PASSED] - Scroll to 1843 and successfully
+
+2019-12-22 14:38:40 - [TEST_STEP][PASSED] - actionKeyword.VerifyKeyword.verifyElementExistByXpath("//div[@class="member-infor"]"): Element exists
+
+2019-12-22 14:38:43 - [MESSAGE][PASSED] - Element exists
+
+2019-12-22 14:38:43 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.clickElementByXPath("//*[@id="block-obw-theme-content"]//div[@class='button-group']/a[text()='Sign up']"): com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+
+2019-12-22 14:38:44 - [MESSAGE][FAILED] - Fail to click on element
+
+2019-12-22 14:38:44 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+
+2019-12-22 14:38:44 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-22 14:38:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-22 14:38:45 - [TEST_STEP][FAILED] - actionKeyword.VerifyKeyword.verifyURLInTheSameTab("contact-us?purpose=create_stories_with_us"): com.kms.katalon.core.exception.StepFailedException: https://www.ourbetterworld.org/create-stories do not match
+
+2019-12-22 14:38:45 - [MESSAGE][FAILED] - https://www.ourbetterworld.org/create-stories do not match
+
+2019-12-22 14:38:45 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: https://www.ourbetterworld.org/create-stories do not match]]></system-out>
+         <system-err><![CDATA[2019-12-22 14:37:52 - [TEST_CASE][FAILED] - Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories: Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.clickElementByXPath(SelectByXPathKeyword.groovy:89)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkWithUS_Pitch_Stories.run(WorkWithUS_Pitch_Stories:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData" time="11.668" classname="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.setTextElementByXPath(SelectByXPathKeyword.groovy:71)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at AboutUs_Contact_FillInData.run(AboutUs_Contact_FillInData:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)
+"/>
+         <system-out><![CDATA[2019-12-22 14:38:45 - [TEST_CASE][FAILED] - Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData: Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.setTextElementByXPath(SelectByXPathKeyword.groovy:71)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at AboutUs_Contact_FillInData.run(AboutUs_Contact_FillInData:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)
+
+
+2019-12-22 14:38:46 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-first-name']", varFirstname): com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:47 - [MESSAGE][FAILED] - Fail to enter text
+
+2019-12-22 14:38:47 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:47 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-last-name']", varLastname): com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:48 - [MESSAGE][FAILED] - Fail to enter text
+
+2019-12-22 14:38:48 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:48 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-email']", varEmail): Text is inputted successfully
+
+2019-12-22 14:38:52 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-22 14:38:52 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-phone']", varContact): com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:53 - [MESSAGE][FAILED] - Fail to enter text
+
+2019-12-22 14:38:53 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:53 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.selectCountryDropDownList("Vietnam"): com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+
+2019-12-22 14:38:55 - [MESSAGE][FAILED] - Fail to click on element
+
+2019-12-22 14:38:55 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+
+2019-12-22 14:38:55 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='state']", varCity): com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:56 - [MESSAGE][FAILED] - Fail to enter text
+
+2019-12-22 14:38:56 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:56 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.selectNationalityDropDownList("Vietnamese"): com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+
+2019-12-22 14:38:57 - [MESSAGE][FAILED] - Fail to click on element
+
+2019-12-22 14:38:57 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to click on element]]></system-out>
+         <system-err><![CDATA[2019-12-22 14:38:45 - [TEST_CASE][FAILED] - Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData: Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.setTextElementByXPath(SelectByXPathKeyword.groovy:71)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at AboutUs_Contact_FillInData.run(AboutUs_Contact_FillInData:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData" time="11.021" classname="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.setTextElementByXPath(SelectByXPathKeyword.groovy:71)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at AboutUs_Contact_FillInData.run(AboutUs_Contact_FillInData:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)
+"/>
+         <system-out><![CDATA[2019-12-22 14:38:57 - [TEST_CASE][FAILED] - Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData: Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.setTextElementByXPath(SelectByXPathKeyword.groovy:71)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at AboutUs_Contact_FillInData.run(AboutUs_Contact_FillInData:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)
+
+
+2019-12-22 14:38:57 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-first-name']", varFirstname): com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:59 - [MESSAGE][FAILED] - Fail to enter text
+
+2019-12-22 14:38:59 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:38:59 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-last-name']", varLastname): com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:39:00 - [MESSAGE][FAILED] - Fail to enter text
+
+2019-12-22 14:39:00 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:39:00 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-email']", varEmail): Text is inputted successfully
+
+2019-12-22 14:39:00 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-22 14:39:00 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-phone']", varContact): com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:39:02 - [MESSAGE][FAILED] - Fail to enter text
+
+2019-12-22 14:39:02 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:39:02 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.selectCountryDropDownList("Vietnam"): com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+
+2019-12-22 14:39:03 - [MESSAGE][FAILED] - Fail to click on element
+
+2019-12-22 14:39:03 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+
+2019-12-22 14:39:03 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='state']", varCity): com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:39:05 - [MESSAGE][FAILED] - Fail to enter text
+
+2019-12-22 14:39:05 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+
+2019-12-22 14:39:05 - [TEST_STEP][FAILED] - actionKeyword.SelectByXPathKeyword.selectNationalityDropDownList("Vietnamese"): com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+
+2019-12-22 14:39:08 - [MESSAGE][FAILED] - Fail to click on element
+
+2019-12-22 14:39:08 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Fail to click on element]]></system-out>
+         <system-err><![CDATA[2019-12-22 14:38:57 - [TEST_CASE][FAILED] - Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData: Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to enter text
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.setTextElementByXPath(SelectByXPathKeyword.groovy:71)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at AboutUs_Contact_FillInData.run(AboutUs_Contact_FillInData:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-22 14:37:51 - [TEST_SUITE][FAILED] - TestSuit_PitchStory: Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.clickElementByXPath(SelectByXPathKeyword.groovy:89)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkWithUS_Pitch_Stories.run(WorkWithUS_Pitch_Stories:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-12-22 14:37:51 - [TEST_SUITE][FAILED] - TestSuit_PitchStory: Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to click on element
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at actionKeyword.SelectByXPathKeyword.clickElementByXPath(SelectByXPathKeyword.groovy:89)
+	at actionKeyword.SelectByXPathKeyword.invokeMethod(SelectByXPathKeyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkWithUS_Pitch_Stories.run(WorkWithUS_Pitch_Stories:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1577000269551.run(TempTestSuite1577000269551.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
