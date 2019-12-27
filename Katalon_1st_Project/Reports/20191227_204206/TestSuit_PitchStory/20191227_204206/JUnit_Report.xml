@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit_PitchStory" time="65.907" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuit_PitchStory" tests="3" failures="0" errors="0" time="65.907" timestamp="2019-12-27 20:42:09" hostname="hidadsek - nguyenthuc" id="Test Suites/TestSuit_PitchStory">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hidadsek\\Desktop\\Git\\Katalon-project\\Katalon_1st_Project\\Reports\\20191227_204206\\TestSuit_PitchStory\\20191227_204206"/>
+         <property name="logFiles" value="C:\\Users\\hidadsek\\Desktop\\Git\\Katalon-project\\Katalon_1st_Project\\Reports\\20191227_204206\\TestSuit_PitchStory\\20191227_204206\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hidadsek - nguyenthuc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="192.168.1.110"/>
+         <property name="sessionId" value="2b5972ca-d168-4a62-8fe8-abd4b72ef75b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories" time="40.078" classname="Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories" status="PASSED">
+         <system-out><![CDATA[2019-12-27 20:42:09 - [TEST_CASE][PASSED] - Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories: Test Cases/Keyword_TestCase/TestCase_WorkWithUS/WorkWithUS_Pitch_Stories
+
+2019-12-27 20:42:09 - [TEST_STEP][PASSED] - actionKeyword.BrowserKeyword.openBrowser("https://www.ourbetterworld.org/"): actionKeyword.BrowserKeyword.openBrowser is PASSED
+
+2019-12-27 20:42:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-12-27 20:42:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-27 20:42:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ourbetterworld.org/'
+
+2019-12-27 20:42:31 - [MESSAGE][PASSED] - actionKeyword.BrowserKeyword.openBrowser is PASSED
+
+2019-12-27 20:42:31 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.clickElementByXPath("//div[@class='navigation float-left']//li//a[text()='Work With Us']"): Element has been clicked
+
+2019-12-27 20:42:38 - [MESSAGE][PASSED] - Element has been clicked
+
+2019-12-27 20:42:38 - [TEST_STEP][PASSED] - modalKeyword.DelayModal.deLay(5000): modalKeyword.DelayModal.deLay is PASSED
+
+2019-12-27 20:42:44 - [MESSAGE][PASSED] - modalKeyword.DelayModal.deLay is PASSED
+
+2019-12-27 20:42:44 - [TEST_STEP][PASSED] - actionKeyword.VerifyKeyword.verifyTextByXPath("//div[@id="block-obw-theme-content"]/article/div/div[1]/div/div[2]/h1/div", "Pitch Stories"): Text is verified successfully
+
+2019-12-27 20:42:44 - [MESSAGE][PASSED] - Text is verified successfully
+
+2019-12-27 20:42:44 - [TEST_STEP][PASSED] - actionKeyword.VerifyKeyword.verifyElementExistByXpath("//*[@id="video-embeded-hero"]"): Element exists
+
+2019-12-27 20:42:44 - [MESSAGE][PASSED] - Element exists
+
+2019-12-27 20:42:44 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.clickElementByXPath("//*[@id="block-obw-theme-content"]//div[@class='button-group']/a[text()='Pitch your story']"): Element has been clicked
+
+2019-12-27 20:42:49 - [MESSAGE][PASSED] - Element has been clicked
+
+2019-12-27 20:42:49 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-27 20:42:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-27 20:42:49 - [TEST_STEP][PASSED] - actionKeyword.VerifyKeyword.verifyURLInTheSameTab("contact-us?purpose=pitch_us_a_story"): URL is verified successfully
+
+2019-12-27 20:42:49 - [MESSAGE][PASSED] - URL is verified successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData" time="8.034" classname="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData" status="PASSED">
+         <system-out><![CDATA[2019-12-27 20:42:49 - [TEST_CASE][PASSED] - Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData: Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData
+
+2019-12-27 20:42:49 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-first-name']", varFirstname): Text is inputted successfully
+
+2019-12-27 20:42:50 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:42:50 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-last-name']", varLastname): Text is inputted successfully
+
+2019-12-27 20:42:51 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:42:51 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-email']", varEmail): Text is inputted successfully
+
+2019-12-27 20:42:52 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:42:52 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-phone']", varContact): Text is inputted successfully
+
+2019-12-27 20:42:52 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:42:52 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.selectCountryDropDownList("Vietnam"): Dropdownlist has been clicked
+
+2019-12-27 20:42:54 - [MESSAGE][PASSED] - Dropdownlist has been clicked
+
+2019-12-27 20:42:54 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='state']", varCity): Text is inputted successfully
+
+2019-12-27 20:42:55 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:42:55 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.selectNationalityDropDownList("Vietnamese"): Dropdownlist has been clicked
+
+2019-12-27 20:42:57 - [MESSAGE][PASSED] - Dropdownlist has been clicked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData" time="7.664" classname="Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData" status="PASSED">
+         <system-out><![CDATA[2019-12-27 20:42:57 - [TEST_CASE][PASSED] - Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData: Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData
+
+2019-12-27 20:42:57 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-first-name']", varFirstname): Text is inputted successfully
+
+2019-12-27 20:42:59 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:42:59 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-last-name']", varLastname): Text is inputted successfully
+
+2019-12-27 20:42:59 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:42:59 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-email']", varEmail): Text is inputted successfully
+
+2019-12-27 20:43:00 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:43:00 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='edit-phone']", varContact): Text is inputted successfully
+
+2019-12-27 20:43:00 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:43:00 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.selectCountryDropDownList("Vietnam"): Dropdownlist has been clicked
+
+2019-12-27 20:43:02 - [MESSAGE][PASSED] - Dropdownlist has been clicked
+
+2019-12-27 20:43:02 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.setTextElementByXPath("//input[@id='state']", varCity): Text is inputted successfully
+
+2019-12-27 20:43:03 - [MESSAGE][PASSED] - Text is inputted successfully
+
+2019-12-27 20:43:03 - [TEST_STEP][PASSED] - actionKeyword.SelectByXPathKeyword.selectNationalityDropDownList("Vietnamese"): Dropdownlist has been clicked
+
+2019-12-27 20:43:05 - [MESSAGE][PASSED] - Dropdownlist has been clicked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-27 20:42:09 - [TEST_SUITE][PASSED] - TestSuit_PitchStory: Test Cases/Feature_TestCase/TestCase_About_US/AboutUs_Contact_FillInData]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
