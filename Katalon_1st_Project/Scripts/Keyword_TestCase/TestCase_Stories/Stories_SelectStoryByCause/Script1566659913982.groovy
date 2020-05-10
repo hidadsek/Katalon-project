@@ -15,9 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
-CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'Stories\']')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'Stories by cause\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectOptionInNavBar'('Stories', 'Stories by cause')
 
 CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 
@@ -25,5 +23,7 @@ CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//*[@id="country
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectStoriesBySection'('Arts and Culture')
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectStoriesInList'('1')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectStoriesInList'('The Heart at Play takes play to heart')
+
+CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//div[@class=\'container\']//h1/span', 'The Heart at Play takes play to heart')
 

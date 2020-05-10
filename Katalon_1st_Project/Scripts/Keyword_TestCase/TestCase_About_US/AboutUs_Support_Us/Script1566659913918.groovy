@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectOptionInNavBar'('About Us', 'Support us')
+
 CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'About Us\']')
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'Support us\']')

@@ -15,9 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
-CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'About Us\']')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'Our Team\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectOptionInNavBar'('About Us', 'Our Team')
 
 CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 

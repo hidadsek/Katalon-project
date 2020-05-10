@@ -132,10 +132,10 @@ class SelectByXPathKeyword {
 	 * @param to xpath, driver is default
 	 */
 	@Keyword
-	def selectStoriesInList(String numberOfStory) {
+	def selectStoriesInList(String storyTitle) {
 		try {
 			WebDriver driver = DriverFactory.getWebDriver();
-			driver.findElement(By.xpath("//*[@id='stories-list']/div/div[1]/div/div["+numberOfStory+"]/div/div[2]/h3/a/span")).click();
+			driver.findElement(By.xpath("//*[@id='stories-list']//div//a/span[text()='"+storyTitle+"']")).click();
 			driver.manage().timeouts().implicitlyWait(1,TimeUnit.SECONDS);
 			KeywordUtil.markPassed("Story has been clicked");
 		} catch (WebElementNotFoundException e) {
@@ -448,6 +448,26 @@ class SelectByXPathKeyword {
 			driver.findElement(By.xpath("//div[starts-with(@id,'edit-markup')]/a")).click();
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 			KeywordUtil.markPassed("All actions are selected");
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("Element not found");
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element");
+			e.printStackTrace();
+		}
+	}
+	/**
+	 * Select navigation in Nav bar
+	 * @param to value, driver is default
+	 */
+	@Keyword
+	def selectOptionInNavBar(String navOtion, String topic ) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver();
+			Actions builder = new Actions(driver);
+			WebElement elem = driver.findElement(By.xpath("//nav[@id='block-mainnavigation']//li//a[text()='"+navOtion+"']"));
+			builder.moveToElement(elem).perform();
+			driver.findElement(By.xpath("//nav[@id='block-mainnavigation']//li/ul//a[text()='"+topic+"']")).click();
+			KeywordUtil.markPassed("Option is selected");
 		} catch (WebElementNotFoundException e) {
 			KeywordUtil.markFailed("Element not found");
 		} catch (Exception e) {

@@ -37,9 +37,9 @@ def static "actionKeyword.SelectByXPathKeyword.selectStoriesBySection"(
 }
 
 def static "actionKeyword.SelectByXPathKeyword.selectStoriesInList"(
-    	String numberOfStory	) {
+    	String storyTitle	) {
     (new actionKeyword.SelectByXPathKeyword()).selectStoriesInList(
-        	numberOfStory)
+        	storyTitle)
 }
 
 def static "actionKeyword.SelectByXPathKeyword.selectSerie"(
@@ -124,6 +124,14 @@ def static "actionKeyword.SelectByXPathKeyword.selectMultipleActionInList"(
     	String value	) {
     (new actionKeyword.SelectByXPathKeyword()).selectMultipleActionInList(
         	value)
+}
+
+def static "actionKeyword.SelectByXPathKeyword.selectOptionInNavBar"(
+    	String navOtion	
+     , 	String topic	) {
+    (new actionKeyword.SelectByXPathKeyword()).selectOptionInNavBar(
+        	navOtion
+         , 	topic)
 }
 
 def static "actionKeyword.SelectByCSSKeyword.clickElementByCSS"(

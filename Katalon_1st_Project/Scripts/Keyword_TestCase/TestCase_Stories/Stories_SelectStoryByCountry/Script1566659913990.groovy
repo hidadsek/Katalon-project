@@ -15,9 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
-CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'Stories\']')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'Stories by country\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectOptionInNavBar'('Stories', 'Stories by country')
 
 CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 
@@ -25,5 +23,7 @@ CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//*[@id="country
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectStoriesBySection'('Cambodia')
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectStoriesInList'('1')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectStoriesInList'('Not all heroes wear capes, some don a fur coat')
+
+CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//div[@class=\'container\']//h1/span', 'Not all heroes wear capes, some don a fur coat')
 

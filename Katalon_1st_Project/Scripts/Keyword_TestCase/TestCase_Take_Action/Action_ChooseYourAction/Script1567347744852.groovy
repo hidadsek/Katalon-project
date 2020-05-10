@@ -15,13 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
-CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'Take Action\']')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'Choose your action\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectOptionInNavBar'('Take Action', 'Choose your action')
 
 CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectMultipleActionInList'('Eat,Travel,Volunteer & Support')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectMultipleActionInList'('Eat,Travel,Volunteer')
 
 CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectMultipleActionInList'('Animals,Diversity and Inclusion,Elderly')
 

@@ -15,14 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'actionKeyword.BrowserKeyword.openBrowser'('https://www.ourbetterworld.org/')
 
-CustomKeywords.'actionKeyword.MouseHoverKeyword.moveMouseToObject'('//div[@class=\'navigation float-left\']//li//a[text()=\'Stories\']')
-
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//div[@class=\'navigation float-left\']//li//li/a[text()=\'All stories\']')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectOptionInNavBar'('Stories', 'All stories')
 
 CustomKeywords.'modalKeyword.DelayModal.deLay'(5000)
 
-CustomKeywords.'actionKeyword.SelectByXPathKeyword.clickElementByXPath'('//*[@id="stories-list"]//div//a/span[text()="Friendships shaped by a pair of scissors"]')
+CustomKeywords.'actionKeyword.SelectByXPathKeyword.selectStoriesInList'('Crisis couture? These Malaysian fashion designers want to save lives')
 
-CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//*[@id="story"]/div/div/div[1]/div/div[1]/h1/span', 'Friendships shaped by a pair of scissors')
-
+CustomKeywords.'actionKeyword.VerifyKeyword.verifyTextByXPath'('//div[@class=\'container\']//h1/span', 'Crisis couture? These Malaysian fashion designers want to save lives')
 
