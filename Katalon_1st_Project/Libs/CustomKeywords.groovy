@@ -160,6 +160,36 @@ def static "modalKeyword.DelayModal.implicitWait"(
         	time)
 }
 
+def static "databaseKeyword.SQLServerTestingKeyword.connectDB"(
+    	String url	
+     , 	String dbname	
+     , 	String port	
+     , 	String username	
+     , 	String password	) {
+    (new databaseKeyword.SQLServerTestingKeyword()).connectDB(
+        	url
+         , 	dbname
+         , 	port
+         , 	username
+         , 	password)
+}
+
+def static "databaseKeyword.SQLServerTestingKeyword.executeQuery"(
+    	String queryString	) {
+    (new databaseKeyword.SQLServerTestingKeyword()).executeQuery(
+        	queryString)
+}
+
+def static "databaseKeyword.SQLServerTestingKeyword.closeDatabaseConnection"() {
+    (new databaseKeyword.SQLServerTestingKeyword()).closeDatabaseConnection()
+}
+
+def static "databaseKeyword.SQLServerTestingKeyword.execute"(
+    	String queryString	) {
+    (new databaseKeyword.SQLServerTestingKeyword()).execute(
+        	queryString)
+}
+
 def static "actionKeyword.VerifyKeyword.verifyTextByXPath"(
     	String xpath	
      , 	String text	) {

@@ -136,7 +136,7 @@
 			<attribute name="javadoc_location" value="file:/E:/Katalon/Katalon_Studio_Windows_64-6.1.5/configuration/resources/apidocs/com.kms.katalon.core.testng/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/Git/Katalon-project/Katalon_1st_Project/Drivers/mariadb-java-client-2.4.4-sources.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
